@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="rviz"  type="rviz"  name="rviz"  args="-d $(find udp_communication)/rviz/demo.rviz"></node>
+
+    <node pkg="udp_communication"  type="sbg_navigation_node"  name="sbg_navigation_node"  output="screen"></node>
+
+</launch>

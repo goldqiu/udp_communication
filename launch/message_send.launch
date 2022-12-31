@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="udp_communication"  type="message_send_node"  name="message_send_node"  output="screen"></node>
+</launch>

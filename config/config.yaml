@@ -1,0 +1,15 @@
+ 
+measurements:
+    lidar:
+        topic_name: /velodyne_points
+        frame_id: velo_link
+        queue_size: 100000
+    imu:
+        topic_name: /imu_raw
+        frame_id: imu_link
+        queue_size: 1000000
+    gnss:
+        topic_name: /imu/nav_sat_fix
+        frame_id: imu_link
+        queue_size: 1000000     
+
